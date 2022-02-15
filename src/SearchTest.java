@@ -22,7 +22,7 @@ public class SearchTest {
 
 
         // TEST PARTS C & D -- UNCOMMENT TEST CODE
-        /*
+
         ArrayList<Integer> numArrayList = new ArrayList<Integer>(Arrays.asList(3, -2, 9, 38, -23, 9, 100));
         System.out.println("Tests of linear search Integer ArrayList:");
         System.out.println(Search.linearSearch(numArrayList, 3));
@@ -34,25 +34,25 @@ public class SearchTest {
         String[] arr1 = {"blue", "red", "purple", "green", "purple"};
         System.out.println(Search.linearSearch(arr1, "purple"));
         System.out.println(Search.linearSearch(arr1, "pink"));
-         */
+
 
         // TEST PART E -- UNCOMMENT TEST CODE
-        /*
+
         int[] numArray2 = {5, 1, 5, 4, 7, 5, 2, 5, 8, 8, 5, 10, 5};
         System.out.println(Search.linearSearchLast(numArray2, 4));
         System.out.println(Search.linearSearchLast(numArray2, 8));
         System.out.println(Search.linearSearchLast(numArray2, 5));
         System.out.println(Search.linearSearchLast(numArray2, 9));
-         */
+
 
         // TEST PART F -- UNCOMMENT TEST CODE
-        /*
+
         System.out.println(Search.linearSearchCount(numArray2, 5));
         System.out.println(Search.linearSearchCount(numArray2, 9));
 
         ArrayList<Integer> numArrayList2 = new ArrayList<Integer>(Arrays.asList(5, 1, 5, 4, 7, 5, 2, 5, 8, 8, 5, 10, 5));
         System.out.println(Search.linearSearchCount(numArrayList2, 5));
         System.out.println(Search.linearSearchCount(numArrayList2, 9));
-         */
+
     }
 }
